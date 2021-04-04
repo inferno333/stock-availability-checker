@@ -953,3 +953,14 @@ dependencies = [
 name = "pin-project-internal"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "758669ae3558c6f74bd2a18b41f7ac0b5a195aea6639d6a9b5e5d1ad5ba24c0b"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "pin-project-lite"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
