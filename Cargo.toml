@@ -2,4 +2,6 @@
 authors = ["tharun"]
 edition = "2018"
 name = "uptime-checker"
-versio
+version = "0.1.0"
+
+# See 
