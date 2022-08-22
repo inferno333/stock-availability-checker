@@ -1,4 +1,4 @@
 [package]
 authors = ["tharun"]
 edition = "2018"
-na
+name = "uptime-c
