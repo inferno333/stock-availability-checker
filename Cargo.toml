@@ -1,4 +1,5 @@
 [package]
 authors = ["tharun"]
 edition = "2018"
-name = "uptime-c
+name = "uptime-checker"
+versio
