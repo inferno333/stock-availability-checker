@@ -8,4 +8,5 @@ version = "0.1.0"
 
 [dependencies]
 lettre = "0.9.0"
-le
+lettre_email="0.9.0"
+req
