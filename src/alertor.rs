@@ -1,2 +1,2 @@
 use dotenv::dotenv;
-use lettre::{smtp::authentication::Credent
+use lettre::{smtp::authentication::Credentials, SmtpClient, Sm
