@@ -3,4 +3,6 @@ use lettre::{smtp::authentication::Credentials, SmtpClient, SmtpTransport, Trans
 use lettre_email::EmailBuilder;
 use std::process::Command;
 
-use crate::error::{Erro
+use crate::error::{ErrorKind, Errors};
+
+#[
