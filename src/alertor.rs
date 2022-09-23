@@ -5,4 +5,5 @@ use std::process::Command;
 
 use crate::error::{ErrorKind, Errors};
 
-#[
+#[allow(dead_code)]
+pub
