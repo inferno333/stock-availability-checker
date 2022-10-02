@@ -6,4 +6,5 @@ use std::process::Command;
 use crate::error::{ErrorKind, Errors};
 
 #[allow(dead_code)]
-pub struct Alerter
+pub struct Alerter<'a> {
+    email: Strin
