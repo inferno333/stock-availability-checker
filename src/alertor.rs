@@ -7,4 +7,5 @@ use crate::error::{ErrorKind, Errors};
 
 #[allow(dead_code)]
 pub struct Alerter<'a> {
-    email: Strin
+    email: String,
+    password: St
