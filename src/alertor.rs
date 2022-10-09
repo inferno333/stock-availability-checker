@@ -9,4 +9,5 @@ use crate::error::{ErrorKind, Errors};
 pub struct Alerter<'a> {
     email: String,
     password: String,
-    to_emai
+    to_email: &'a str,
+   
