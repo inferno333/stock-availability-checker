@@ -10,4 +10,4 @@ pub struct Alerter<'a> {
     email: String,
     password: String,
     to_email: &'a str,
-    maile
+    mailer: SmtpTransport,
