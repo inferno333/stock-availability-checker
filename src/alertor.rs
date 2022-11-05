@@ -11,3 +11,4 @@ pub struct Alerter<'a> {
     password: String,
     to_email: &'a str,
     mailer: SmtpTransport,
+    mob_no: u64,
