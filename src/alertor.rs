@@ -15,4 +15,4 @@ pub struct Alerter<'a> {
 }
 
 impl<'a> Alerter<'a> {
-    pub fn ne
+    pub fn new(to_email: &'a s
