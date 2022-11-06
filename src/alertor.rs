@@ -14,4 +14,5 @@ pub struct Alerter<'a> {
     mob_no: u64,
 }
 
-impl<'a> Aler
+impl<'a> Alerter<'a> {
+    pub fn ne
