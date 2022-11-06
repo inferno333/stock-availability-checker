@@ -12,3 +12,6 @@ pub struct Alerter<'a> {
     to_email: &'a str,
     mailer: SmtpTransport,
     mob_no: u64,
+}
+
+impl<'a> Aler
