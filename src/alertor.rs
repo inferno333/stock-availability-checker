@@ -17,4 +17,4 @@ pub struct Alerter<'a> {
 impl<'a> Alerter<'a> {
     pub fn new(to_email: &'a str, mob_no: u64) -> Result<Alerter<'a>, Errors<'a>> {
         dotenv().ok();
-      
+        let email = std::env
