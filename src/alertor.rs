@@ -19,4 +19,4 @@ impl<'a> Alerter<'a> {
         dotenv().ok();
         let email = std::env::var("EMAIL").unwrap();
         let password = std::env::var("PASSWORD").unwrap();
-        let creds = Credentials
+        let creds = Credentials::new(email.cl
