@@ -20,4 +20,4 @@ impl<'a> Alerter<'a> {
         let email = std::env::var("EMAIL").unwrap();
         let password = std::env::var("PASSWORD").unwrap();
         let creds = Credentials::new(email.clone(), password.clone());
-        let mailer = match SmtpClient::new_
+        let mailer = match SmtpClient::new_simple("smtp.gm
