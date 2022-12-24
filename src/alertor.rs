@@ -21,4 +21,4 @@ impl<'a> Alerter<'a> {
         let password = std::env::var("PASSWORD").unwrap();
         let creds = Credentials::new(email.clone(), password.clone());
         let mailer = match SmtpClient::new_simple("smtp.gmail.com") {
-            Ok(val) => va
+            Ok(val) => val.credenti
