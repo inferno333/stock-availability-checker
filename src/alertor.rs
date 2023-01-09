@@ -22,4 +22,5 @@ impl<'a> Alerter<'a> {
         let creds = Credentials::new(email.clone(), password.clone());
         let mailer = match SmtpClient::new_simple("smtp.gmail.com") {
             Ok(val) => val.credentials(creds).transport(),
-            E
+            Err(_) => {
+     
