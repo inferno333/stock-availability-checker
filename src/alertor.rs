@@ -23,4 +23,5 @@ impl<'a> Alerter<'a> {
         let mailer = match SmtpClient::new_simple("smtp.gmail.com") {
             Ok(val) => val.credentials(creds).transport(),
             Err(_) => {
-                return Err(Errors::new
+                return Err(Errors::new(
+       
