@@ -24,4 +24,5 @@ impl<'a> Alerter<'a> {
             Ok(val) => val.credentials(creds).transport(),
             Err(_) => {
                 return Err(Errors::new(
-                    ErrorKind:
+                    ErrorKind::Alerterror,
+        
