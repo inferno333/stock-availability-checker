@@ -25,4 +25,4 @@ impl<'a> Alerter<'a> {
             Err(_) => {
                 return Err(Errors::new(
                     ErrorKind::Alerterror,
-        
+                    "Cannot
