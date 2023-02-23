@@ -26,4 +26,5 @@ impl<'a> Alerter<'a> {
                 return Err(Errors::new(
                     ErrorKind::Alerterror,
                     "Cannot Connect to SMTP Server",
-            
+                ))
+            }
