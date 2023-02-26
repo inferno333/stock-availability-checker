@@ -28,3 +28,6 @@ impl<'a> Alerter<'a> {
                     "Cannot Connect to SMTP Server",
                 ))
             }
+        };
+
+      
