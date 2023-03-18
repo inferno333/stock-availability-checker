@@ -32,4 +32,5 @@ impl<'a> Alerter<'a> {
 
         Ok(Alerter {
             email,
+            password,
       
