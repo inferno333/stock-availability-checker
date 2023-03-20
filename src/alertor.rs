@@ -34,4 +34,4 @@ impl<'a> Alerter<'a> {
             email,
             password,
             to_email,
- 
+            mailer,
