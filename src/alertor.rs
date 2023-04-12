@@ -39,4 +39,4 @@ impl<'a> Alerter<'a> {
         })
     }
 
-    pub
+    pub fn alert_mail(&m
