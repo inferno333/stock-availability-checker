@@ -36,4 +36,7 @@ impl<'a> Alerter<'a> {
             to_email,
             mailer,
             mob_no,
-     
+        })
+    }
+
+    pub
