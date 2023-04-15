@@ -39,4 +39,4 @@ impl<'a> Alerter<'a> {
         })
     }
 
-    pub fn alert_mail(&mut self, link: &'a
+    pub fn alert_mail(&mut self, link: &'a str) -> Result
