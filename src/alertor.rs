@@ -39,4 +39,5 @@ impl<'a> Alerter<'a> {
         })
     }
 
-    pub fn alert_mail(&mut self, link: &'a str) -> Result<(), Errors<'a>> 
+    pub fn alert_mail(&mut self, link: &'a str) -> Result<(), Errors<'a>> {
+        let mail = E
