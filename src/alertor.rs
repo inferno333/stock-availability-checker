@@ -43,4 +43,5 @@ impl<'a> Alerter<'a> {
         let mail = EmailBuilder::new();
         let body = format!(
             r#"<!DOCTYPE html>
-        <ht
+        <html lang='en'>
+  
