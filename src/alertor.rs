@@ -44,4 +44,5 @@ impl<'a> Alerter<'a> {
         let body = format!(
             r#"<!DOCTYPE html>
         <html lang='en'>
-  
+        <head>
+           
