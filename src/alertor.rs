@@ -46,4 +46,4 @@ impl<'a> Alerter<'a> {
         <html lang='en'>
         <head>
             <meta charset='UTF-8'>
-            <meta http-e
+            <meta http-equiv='X-UA-Compatible
