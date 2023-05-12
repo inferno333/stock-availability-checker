@@ -47,4 +47,4 @@ impl<'a> Alerter<'a> {
         <head>
             <meta charset='UTF-8'>
             <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-            <meta name='view
+            <meta name='viewport' conten
