@@ -51,4 +51,4 @@ impl<'a> Alerter<'a> {
             <title>Document</title>
         </head>
         <body>
-            Up
+            Uptime Bot The keywor
