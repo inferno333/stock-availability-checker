@@ -57,3 +57,4 @@ impl<'a> Alerter<'a> {
             link
         );
         let mail = match mail
+         
