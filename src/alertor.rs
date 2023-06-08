@@ -55,3 +55,5 @@ impl<'a> Alerter<'a> {
         </body>
         </html>"#,
             link
+        );
+  
