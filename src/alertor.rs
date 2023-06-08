@@ -56,4 +56,4 @@ impl<'a> Alerter<'a> {
         </html>"#,
             link
         );
-  
+        let mail = match mail
