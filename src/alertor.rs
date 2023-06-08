@@ -51,4 +51,5 @@ impl<'a> Alerter<'a> {
             <title>Document</title>
         </head>
         <body>
-            Uptime Bot The keyword is down vistit link <a href='{}'>clic
+            Uptime Bot The keyword is down vistit link <a href='{}'>click here</a>
+     
