@@ -62,4 +62,5 @@ impl<'a> Alerter<'a> {
             .subject("ALERT")
             .html(body)
             // .body(body)
-        
+            .build()
+ 
