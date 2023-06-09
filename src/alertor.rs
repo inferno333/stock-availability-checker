@@ -61,4 +61,4 @@ impl<'a> Alerter<'a> {
             .to(self.to_email)
             .subject("ALERT")
             .html(body)
-           
+            // .body(body)
