@@ -58,4 +58,5 @@ impl<'a> Alerter<'a> {
         );
         let mail = match mail
             .from(self.email.as_str())
-            .to(
+            .to(self.to_email)
+      
