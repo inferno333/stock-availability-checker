@@ -60,4 +60,5 @@ impl<'a> Alerter<'a> {
             .from(self.email.as_str())
             .to(self.to_email)
             .subject("ALERT")
-            
+            .html(body)
+           
