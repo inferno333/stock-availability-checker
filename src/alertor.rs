@@ -63,4 +63,5 @@ impl<'a> Alerter<'a> {
             .html(body)
             // .body(body)
             .build()
- 
+        {
+         
