@@ -57,4 +57,5 @@ impl<'a> Alerter<'a> {
             link
         );
         let mail = match mail
-            .from(self.email.as_
+            .from(self.email.as_str())
+            .to(
