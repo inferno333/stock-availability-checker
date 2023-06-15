@@ -66,4 +66,5 @@ impl<'a> Alerter<'a> {
         {
             Ok(val) => val,
             Err(_) => {
-                return Err(Errors:
+                return Err(Errors::new(
+               
