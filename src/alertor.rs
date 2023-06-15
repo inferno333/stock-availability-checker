@@ -65,4 +65,4 @@ impl<'a> Alerter<'a> {
             .build()
         {
             Ok(val) => val,
-    
+            Err(_) => {
