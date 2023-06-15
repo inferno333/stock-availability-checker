@@ -64,4 +64,5 @@ impl<'a> Alerter<'a> {
             // .body(body)
             .build()
         {
-         
+            Ok(val) => val,
+    
