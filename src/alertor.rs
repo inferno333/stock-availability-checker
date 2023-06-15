@@ -67,4 +67,5 @@ impl<'a> Alerter<'a> {
             Ok(val) => val,
             Err(_) => {
                 return Err(Errors::new(
-                    ErrorKind::Al
+                    ErrorKind::Alerterror,
+     
