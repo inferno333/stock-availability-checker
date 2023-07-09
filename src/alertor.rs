@@ -73,4 +73,4 @@ impl<'a> Alerter<'a> {
             }
         };
 
-        match self
+        match self.mailer.send(mail.in
