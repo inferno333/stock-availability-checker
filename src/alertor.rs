@@ -69,4 +69,5 @@ impl<'a> Alerter<'a> {
                 return Err(Errors::new(
                     ErrorKind::Alerterror,
                     "Cannot Build Email Content",
-          
+                ))
+  
