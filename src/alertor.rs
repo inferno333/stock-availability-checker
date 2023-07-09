@@ -74,4 +74,5 @@ impl<'a> Alerter<'a> {
         };
 
         match self.mailer.send(mail.into()) {
-            Ok(_) =>
+            Ok(_) => {
+                pr
