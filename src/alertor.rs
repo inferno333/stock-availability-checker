@@ -71,4 +71,6 @@ impl<'a> Alerter<'a> {
                     "Cannot Build Email Content",
                 ))
             }
-      
+        };
+
+        match self
