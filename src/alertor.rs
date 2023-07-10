@@ -75,4 +75,4 @@ impl<'a> Alerter<'a> {
 
         match self.mailer.send(mail.into()) {
             Ok(_) => {
-                println!("Email Send Successfully, Aler
+                println!("Email Send Successfully, Alerted: {:^50}", self
