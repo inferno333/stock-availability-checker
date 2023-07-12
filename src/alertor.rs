@@ -78,4 +78,4 @@ impl<'a> Alerter<'a> {
                 println!("Email Send Successfully, Alerted: {:^50}", self.to_email);
                 Ok(())
             }
-    
+            Err(e) 
