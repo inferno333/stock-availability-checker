@@ -77,3 +77,5 @@ impl<'a> Alerter<'a> {
             Ok(_) => {
                 println!("Email Send Successfully, Alerted: {:^50}", self.to_email);
                 Ok(())
+            }
+    
