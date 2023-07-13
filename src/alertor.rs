@@ -79,4 +79,4 @@ impl<'a> Alerter<'a> {
                 Ok(())
             }
             Err(e) => {
-                println!("
+                println!("{}", e.to_string())
