@@ -80,4 +80,4 @@ impl<'a> Alerter<'a> {
             }
             Err(e) => {
                 println!("{}", e.to_string());
-                E
+                Err(Errors::n
