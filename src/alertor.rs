@@ -83,4 +83,6 @@ impl<'a> Alerter<'a> {
                 Err(Errors::new(ErrorKind::Alerterror, "Cannot Send e-mail"))
             }
         }
-  
+    }
+
+    pub fn aler
