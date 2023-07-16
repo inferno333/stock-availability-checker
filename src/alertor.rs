@@ -85,4 +85,5 @@ impl<'a> Alerter<'a> {
         }
     }
 
-    pub fn alert_voice(&self, m
+    pub fn alert_voice(&self, message: &'a str) {
+    
