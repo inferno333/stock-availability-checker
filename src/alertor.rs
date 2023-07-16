@@ -81,4 +81,6 @@ impl<'a> Alerter<'a> {
             Err(e) => {
                 println!("{}", e.to_string());
                 Err(Errors::new(ErrorKind::Alerterror, "Cannot Send e-mail"))
-        
+            }
+        }
+  
