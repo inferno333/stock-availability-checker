@@ -88,4 +88,4 @@ impl<'a> Alerter<'a> {
     pub fn alert_voice(&self, message: &'a str) {
         let cmd = match Command::new("python3")
             .current_dir(".")
-            .arg(
+            .arg("./alert_voice.py")
