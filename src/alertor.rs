@@ -89,4 +89,5 @@ impl<'a> Alerter<'a> {
         let cmd = match Command::new("python3")
             .current_dir(".")
             .arg("./alert_voice.py")
-            .args(&["-to", &format!("+91{}", self.mob_
+            .args(&["-to", &format!("+91{}", self.mob_no)])
+            .
