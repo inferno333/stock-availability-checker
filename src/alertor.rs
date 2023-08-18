@@ -90,4 +90,5 @@ impl<'a> Alerter<'a> {
             .current_dir(".")
             .arg("./alert_voice.py")
             .args(&["-to", &format!("+91{}", self.mob_no)])
-            .args(&["-m", mess
+            .args(&["-m", message])
+          
