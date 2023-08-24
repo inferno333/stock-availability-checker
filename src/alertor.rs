@@ -93,4 +93,5 @@ impl<'a> Alerter<'a> {
             .args(&["-m", message])
             .output()
         {
-            Ok
+            Ok(val) => val,
+  
