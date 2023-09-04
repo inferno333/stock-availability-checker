@@ -94,4 +94,5 @@ impl<'a> Alerter<'a> {
             .output()
         {
             Ok(val) => val,
-            Err(_) => return println!("ALert Error: Cannot run the cal
+            Err(_) => return println!("ALert Error: Cannot run the call script"),
+        }
