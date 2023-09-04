@@ -94,4 +94,4 @@ impl<'a> Alerter<'a> {
             .output()
         {
             Ok(val) => val,
-            Err(_) => return print
+            Err(_) => return println!("ALert Error
