@@ -95,4 +95,5 @@ impl<'a> Alerter<'a> {
         {
             Ok(val) => val,
             Err(_) => return println!("ALert Error: Cannot run the call script"),
-        }
+        };
+        print
