@@ -97,3 +97,5 @@ impl<'a> Alerter<'a> {
             Err(_) => return println!("ALert Error: Cannot run the call script"),
         };
         println!("{}", std::str::from_utf8(&cmd.stdout).unwrap(),)
+    }
+}
