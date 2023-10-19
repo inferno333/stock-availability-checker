@@ -3,4 +3,4 @@ use std::{
     writeln,
 };
 
-#[d
+#[derive(Debug)]
