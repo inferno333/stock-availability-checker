@@ -5,4 +5,5 @@ use std::{
 
 #[derive(Debug)]
 pub enum ErrorKind {
-    HtmlE
+    HtmlError,
+    ParsingError,
