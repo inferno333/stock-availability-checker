@@ -7,3 +7,7 @@ use std::{
 pub enum ErrorKind {
     HtmlError,
     ParsingError,
+    Alerterror,
+}
+
+pub
