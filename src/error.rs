@@ -10,4 +10,4 @@ pub enum ErrorKind {
     Alerterror,
 }
 
-pub
+pub struct Errors<'a> {
