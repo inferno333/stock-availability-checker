@@ -11,3 +11,4 @@ pub enum ErrorKind {
 }
 
 pub struct Errors<'a> {
+    kind: Erro
