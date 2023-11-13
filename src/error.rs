@@ -12,4 +12,7 @@ pub enum ErrorKind {
 
 pub struct Errors<'a> {
     kind: ErrorKind,
-    message:
+    message: &'a str,
+}
+
+impl<'
