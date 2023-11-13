@@ -15,4 +15,4 @@ pub struct Errors<'a> {
     message: &'a str,
 }
 
-impl<'
+impl<'a> Display for 
