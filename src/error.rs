@@ -16,4 +16,4 @@ pub struct Errors<'a> {
 }
 
 impl<'a> Display for Errors<'a> {
-    fn fmt(&self, f: &mut Forma
+    fn fmt(&self, f: &mut Formatter<'_>) -
