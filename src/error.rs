@@ -17,4 +17,4 @@ pub struct Errors<'a> {
 
 impl<'a> Display for Errors<'a> {
     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
-  
+        match self.kind
