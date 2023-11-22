@@ -18,4 +18,4 @@ pub struct Errors<'a> {
 impl<'a> Display for Errors<'a> {
     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
         match self.kind {
-            ErrorKind::HtmlError => writeln!(f, "Invalid Link,
+            ErrorKind::HtmlError => writeln!(f, "Invalid Link, {}", self.mes
