@@ -20,4 +20,6 @@ impl<'a> Display for Errors<'a> {
         match self.kind {
             ErrorKind::HtmlError => writeln!(f, "Invalid Link, {}", self.message),
             ErrorKind::ParsingError => {
-                writeln!(f, "No css element {} exists in the dom", self
+                writeln!(f, "No css element {} exists in the dom", self.message)
+            }
+ 
