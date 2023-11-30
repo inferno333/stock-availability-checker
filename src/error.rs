@@ -22,4 +22,4 @@ impl<'a> Display for Errors<'a> {
             ErrorKind::ParsingError => {
                 writeln!(f, "No css element {} exists in the dom", self.message)
             }
-            ErrorKind::Alerterror =>
+            ErrorKind::Alerterror => writeln!(f, "Erro
