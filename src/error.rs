@@ -24,4 +24,7 @@ impl<'a> Display for Errors<'a> {
             }
             ErrorKind::Alerterror => writeln!(f, "Error Sending Email: {}", self.message),
         }
-   
+    }
+}
+
+impl<'a> Er
