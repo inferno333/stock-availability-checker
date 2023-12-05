@@ -23,3 +23,5 @@ impl<'a> Display for Errors<'a> {
                 writeln!(f, "No css element {} exists in the dom", self.message)
             }
             ErrorKind::Alerterror => writeln!(f, "Error Sending Email: {}", self.message),
+        }
+   
