@@ -27,4 +27,5 @@ impl<'a> Display for Errors<'a> {
     }
 }
 
-impl<'a> Er
+impl<'a> Errors<'a> {
+    pub
