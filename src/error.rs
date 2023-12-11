@@ -28,4 +28,4 @@ impl<'a> Display for Errors<'a> {
 }
 
 impl<'a> Errors<'a> {
-    pub fn new(kind:
+    pub fn new(kind: ErrorKind, 
