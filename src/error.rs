@@ -30,3 +30,5 @@ impl<'a> Display for Errors<'a> {
 impl<'a> Errors<'a> {
     pub fn new(kind: ErrorKind, message: &'a str) -> Errors {
         Errors { kind, message }
+    }
+}
