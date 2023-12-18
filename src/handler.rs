@@ -28,3 +28,27 @@ impl<'a> SiteInfo<'a> {
     // pub fn name(&self) -> &'a str {
     //     self.name
     // }
+
+    // pub fn address(&self) -> &'a str {
+    //     self.address
+    // }
+
+    // pub fn keyword(&self) -> &'a str {
+    //     self.keyword
+    // }
+}
+
+pub struct Handler<'a> {
+    product_name: &'a str,
+    client: Client,
+    links: Vec<SiteInfo<'a>>,
+    keyword: &'a str,
+}
+
+impl<'a> Handler<'a> {
+    pub async fn new(
+        product_name: &'a str,
+        links: Vec<SiteInfo<'a>>,
+        keyword: &'a str,
+    ) -> Handler<'a> {
+        Handler {
