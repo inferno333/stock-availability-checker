@@ -91,3 +91,21 @@ impl<'a> Handler<'a> {
                 let res = elem.text().collect::<Vec<_>>();
                 result.push(res.concat());
             }
+            if result.concat().trim().trim_end_matches(".").to_string() == (self.keyword) {
+                println!(
+                    "[{}]{:^20}{:^20}{}",
+                    link.name, self.product_name, "Out of Stock", link.address
+                );
+            } else {
+                println!(
+                    "[{}]{:^20}{:^20}{}",
+                    link.name, self.product_name, "In Stock", link.address
+                );
+                mailer.alert_mail(link.address)?;
+                mailer.alert_voice(self.product_name);
+            }
+        }
+        // }
+        Ok(())
+    }
+}
