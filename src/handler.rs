@@ -78,3 +78,16 @@ impl<'a> Handler<'a> {
     }
 
     async fn parse_html(&self) -> Result<(), Errors<'a>> {
+        let mut mailer = Alerter::new(
+            "tharunkumar0528@gmail.com",
+            std::env::var("PHONE_NO").unwrap().parse::<u64>().unwrap(),
+        )?;
+        // loop {
+        for link in self.links.iter() {
+            let selector = link.parse_selector().await?;
+            let html = self.get_html(link.address).await?;
+            let mut result = vec![];
+            for elem in html.select(&selector) {
+                let res = elem.text().collect::<Vec<_>>();
+                result.push(res.concat());
+            }
