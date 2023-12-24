@@ -52,3 +52,18 @@ impl<'a> Handler<'a> {
         keyword: &'a str,
     ) -> Handler<'a> {
         Handler {
+            product_name,
+            links,
+            keyword,
+            client: Client::new(),
+        }
+    }
+
+    pub async fn scrape(&self) -> Result<(), Errors<'a>> {
+        self.parse_html().await?;
+        Ok(())
+    }
+
+    async fn get_html(&self, link: &'a str) -> Result<Html, Errors<'a>> {
+        match self.client.get(link).send().await {
+            Ok(res) => {
