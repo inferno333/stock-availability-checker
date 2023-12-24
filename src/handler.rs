@@ -67,3 +67,14 @@ impl<'a> Handler<'a> {
     async fn get_html(&self, link: &'a str) -> Result<Html, Errors<'a>> {
         match self.client.get(link).send().await {
             Ok(res) => {
+                let html_unparsed = res
+                    .text()
+                    .await
+                    .map_err(|_| Errors::new(ErrorKind::HtmlError, "Cannot get Html String"))?;
+                Ok(Html::parse_fragment(&html_unparsed))
+            }
+            Err(_) => Err(Errors::new(ErrorKind::HtmlError, "Cannot Process Request")),
+        }
+    }
+
+    async fn parse_html(&self) -> Result<(), Errors<'a>> {
