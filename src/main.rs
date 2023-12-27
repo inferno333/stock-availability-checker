@@ -5,4 +5,7 @@ use handler::SiteInfo;
 
 mod alertor;
 mod error;
-mod handler
+mod handler;
+
+#[tokio::main]
+asy
