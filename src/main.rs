@@ -8,4 +8,5 @@ mod error;
 mod handler;
 
 #[tokio::main]
-asy
+async fn main() {
+    d
