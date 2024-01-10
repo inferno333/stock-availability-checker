@@ -9,4 +9,4 @@ mod handler;
 
 #[tokio::main]
 async fn main() {
-    d
+    dotenv().ok()
