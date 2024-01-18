@@ -11,4 +11,4 @@ mod handler;
 async fn main() {
     dotenv().ok();
 
-    // le
+    // let nv_3070_card =
