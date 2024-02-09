@@ -15,4 +15,4 @@ async fn main() {
     //     "3070",
     //     vec![SiteInfo::new(
     //         "Rp-Tech",
-    //         "https://rptechindia.in/nvid
+    //         "https://rptechindia.in/nvidia-geforce-rtx
