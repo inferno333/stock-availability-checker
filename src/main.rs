@@ -18,4 +18,5 @@ async fn main() {
     //         "https://rptechindia.in/nvidia-geforce-rtx-3070.html",
     //         "strike",
     //     )],
-    //     "Out
+    //     "Out of stock",
+    // )
