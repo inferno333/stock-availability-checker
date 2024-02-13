@@ -17,4 +17,5 @@ async fn main() {
     //         "Rp-Tech",
     //         "https://rptechindia.in/nvidia-geforce-rtx-3070.html",
     //         "strike",
-    //  
+    //     )],
+    //     "Out
