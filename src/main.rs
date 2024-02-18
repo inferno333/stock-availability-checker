@@ -21,4 +21,4 @@ async fn main() {
     //     "Out of stock",
     // )
     // .await;
-  
+    let nv_3060_ti_c
