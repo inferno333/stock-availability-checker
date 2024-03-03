@@ -22,4 +22,5 @@ async fn main() {
     // )
     // .await;
     let nv_3060_ti_card = handler::Handler::new(
-     
+        "3060 ti",
+ 
