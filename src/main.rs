@@ -21,4 +21,5 @@ async fn main() {
     //     "Out of stock",
     // )
     // .await;
-    let nv_3060_ti_card = handler::Hand
+    let nv_3060_ti_card = handler::Handler::new(
+     
