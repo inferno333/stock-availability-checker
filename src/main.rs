@@ -25,4 +25,4 @@ async fn main() {
         "3060 ti",
         vec![SiteInfo::new(
             "Rp-Tech",
-            "https://rptechindia.in/nvidia-gefor
+            "https://rptechindia.in/nvidia-geforce-rtx-3060-ti.htm
