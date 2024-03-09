@@ -28,4 +28,4 @@ async fn main() {
             "https://rptechindia.in/nvidia-geforce-rtx-3060-ti.html",
             "strike",
         )],
-     
+        "Out of sto
