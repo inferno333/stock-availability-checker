@@ -26,4 +26,6 @@ async fn main() {
         vec![SiteInfo::new(
             "Rp-Tech",
             "https://rptechindia.in/nvidia-geforce-rtx-3060-ti.html",
-            "strike
+            "strike",
+        )],
+     
