@@ -31,4 +31,4 @@ async fn main() {
         "Out of stock",
     )
     .await;
-    let 
+    let cards = vec![
