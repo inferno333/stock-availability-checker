@@ -31,4 +31,4 @@ async fn main() {
         "Out of stock",
     )
     .await;
-    let cards = vec![Arc::new(nv_3060_ti_card
+    let cards = vec![Arc::new(nv_3060_ti_card) /* Arc::new
