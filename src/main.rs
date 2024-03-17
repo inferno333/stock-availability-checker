@@ -32,4 +32,5 @@ async fn main() {
     )
     .await;
     let cards = vec![Arc::new(nv_3060_ti_card) /* Arc::new(nv_3070_card)*/];
-    let mut workers = v
+    let mut workers = vec![];
+    fo
