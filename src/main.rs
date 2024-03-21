@@ -34,4 +34,4 @@ async fn main() {
     let cards = vec![Arc::new(nv_3060_ti_card) /* Arc::new(nv_3070_card)*/];
     let mut workers = vec![];
     for card in cards {
-        let worker
+        let worker = tokio::s
