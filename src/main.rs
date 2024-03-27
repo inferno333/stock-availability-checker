@@ -35,4 +35,5 @@ async fn main() {
     let mut workers = vec![];
     for card in cards {
         let worker = tokio::spawn(async move {
-            match card.scrape().awa
+            match card.scrape().await {
+           
