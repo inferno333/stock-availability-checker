@@ -37,4 +37,5 @@ async fn main() {
         let worker = tokio::spawn(async move {
             match card.scrape().await {
                 Err(e) => println!("{}", e),
-                _ => 
+                _ => (),
+           
