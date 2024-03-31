@@ -38,4 +38,5 @@ async fn main() {
             match card.scrape().await {
                 Err(e) => println!("{}", e),
                 _ => (),
-           
+            };
+        });
