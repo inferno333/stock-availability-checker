@@ -40,4 +40,6 @@ async fn main() {
                 _ => (),
             };
         });
-        workers.push(wo
+        workers.push(worker)
+    }
+    for
