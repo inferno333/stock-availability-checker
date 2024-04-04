@@ -42,4 +42,4 @@ async fn main() {
         });
         workers.push(worker)
     }
-    for
+    for worker in workers {
