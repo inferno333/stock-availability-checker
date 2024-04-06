@@ -43,4 +43,5 @@ async fn main() {
         workers.push(worker)
     }
     for worker in workers {
-        match w
+        match worker.await {
+      
