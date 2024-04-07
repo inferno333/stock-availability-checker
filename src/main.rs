@@ -44,4 +44,4 @@ async fn main() {
     }
     for worker in workers {
         match worker.await {
-      
+            Err(e) => println!("{
