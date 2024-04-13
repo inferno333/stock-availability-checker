@@ -1,1 +1,3 @@
-# stock-availabi
+# stock-availability-checker
+
+A handy 
