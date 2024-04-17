@@ -1,3 +1,3 @@
 # stock-availability-checker
 
-A handy 
+A handy open source utili
